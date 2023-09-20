@@ -1,6 +1,10 @@
 using System;
 using System.Threading;
 
+namespace LeetCode
+{
+
+}
 public class Solution1828
 {
     public int[] CountPoints(int[][] points, int[][] queries)
@@ -22,7 +26,7 @@ public class Solution1828
         return count;
     }
 
-    public static void Main()
+    /*public static void Main()
     {
         int[][] points = new int[4][];
         points[0] = new int[] { 1, 3 };
@@ -42,5 +46,5 @@ public class Solution1828
             Console.Write(i.ToString() + ", ");
         }
         Thread.Sleep(1000);
-    }
+    }*/
 }

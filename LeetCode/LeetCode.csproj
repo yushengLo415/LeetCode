@@ -44,7 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="11. %28Medium%29 Container With Most Water.cs" />
+    <Compile Include="13. %28Easy%29 Roman to Integer.cs" />
+    <Compile Include="1658. Minimum Operations to Reduce X to Zero.cs" />
     <Compile Include="1828. %28Medium%29  Queries On Number of Points Inside a Circle.cs" />
+    <Compile Include="2799. %28Medium%29 Count Complete Subarrays in an Array.cs" />
+    <Compile Include="3. Longest Substring Without Repeating Characters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
