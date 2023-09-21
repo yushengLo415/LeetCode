@@ -43,12 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="11. %28Medium%29 Container With Most Water.cs" />
+    <Compile Include="DP\55. %28Medium%29 Jump Game.cs" />
+    <Compile Include="Two Pointer\11. %28Medium%29 Container With Most Water.cs" />
+    <Compile Include="DP\118. %28Easy%29 Pascal%27s Triangle.cs" />
+    <Compile Include="DP\119. !!!%28Easy%29 Pascal%27s Triangle II.cs" />
     <Compile Include="13. %28Easy%29 Roman to Integer.cs" />
-    <Compile Include="1658. Minimum Operations to Reduce X to Zero.cs" />
+    <Compile Include="141. %28Easy%29 Linked List Cycle.cs" />
+    <Compile Include="1658. !!!%28Minimum%29 Operations to Reduce X to Zero.cs" />
     <Compile Include="1828. %28Medium%29  Queries On Number of Points Inside a Circle.cs" />
-    <Compile Include="2799. %28Medium%29 Count Complete Subarrays in an Array.cs" />
-    <Compile Include="3. Longest Substring Without Repeating Characters.cs" />
+    <Compile Include="205. %28Easy%29 Isomorphic Strings.cs" />
+    <Compile Include="Sliding Window\2799. %28Medium%29 Count Complete Subarrays in an Array.cs" />
+    <Compile Include="Sliding Window\3. %28Medium%29 Longest Substring Without Repeating Characters.cs" />
+    <Compile Include="DP\70. %28Easy%29 Climbing Stairs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
