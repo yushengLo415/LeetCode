@@ -8,7 +8,8 @@ namespace LeetCode.DP
 {
     public class Solution55
     {
-        public bool CanJump(int[] nums)
+        #region Way1
+        /*public bool CanJump(int[] nums)
         {
             if (nums.Length == 0)
                 return false;
@@ -33,10 +34,25 @@ namespace LeetCode.DP
             }
 
             return !isZero.Any();
+        }*/
+        #endregion
+
+        #region Way2
+        public bool CanJump(int[] nums)
+        {
+            int necessary = nums.Length - 1;
+            for (int i = nums.Length - 2; i > 0; i--)
+            {
+                if (i + nums[i] > necessary)
+                    necessary = i;
+            }
+
+            return necessary == 0;
         }
+        #endregion
     }
 
-    class MainClass55
+    /*class MainClass55
     {
         static int Main()
         {
@@ -47,5 +63,5 @@ namespace LeetCode.DP
             Thread.Sleep(10000);
             return 0;
         }
-    }
+    }*/
 }

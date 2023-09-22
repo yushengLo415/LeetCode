@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="20. %28Easy%29 Valid Parentheses.cs" />
+    <Compile Include="21. %28Easy%29 Merge Two Sorted Lists.cs" />
     <Compile Include="DP\55. %28Medium%29 Jump Game.cs" />
     <Compile Include="Two Pointer\11. %28Medium%29 Container With Most Water.cs" />
     <Compile Include="DP\118. %28Easy%29 Pascal%27s Triangle.cs" />
