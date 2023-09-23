@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="20. %28Easy%29 Valid Parentheses.cs" />
-    <Compile Include="21. %28Easy%29 Merge Two Sorted Lists.cs" />
+    <Compile Include="Grind75\121. %28Easy%29 Best Time to Buy and Sell Stock.cs" />
+    <Compile Include="Grind75\125. %28Easy%29 Valid Palindrome.cs" />
+    <Compile Include="Grind75\20. %28Easy%29 Valid Parentheses.cs" />
+    <Compile Include="Grind75\21. %28Easy%29 Merge Two Sorted Lists.cs" />
+    <Compile Include="Grind75\226. %28Easy%29 Invert Binary Tree.cs" />
+    <Compile Include="Grind75\235. %28Medium%29 Lowest Common Ancestor of a Binary Search Tree.cs" />
+    <Compile Include="Grind75\242. %28Easy%29 Valid Anagram.cs" />
+    <Compile Include="Grind75\704. %28Easy%29 Binary Search.cs" />
+    <Compile Include="Grind75\733. %28Easy%29 Flood Fill.cs" />
     <Compile Include="DP\55. %28Medium%29 Jump Game.cs" />
     <Compile Include="Two Pointer\11. %28Medium%29 Container With Most Water.cs" />
     <Compile Include="DP\118. %28Easy%29 Pascal%27s Triangle.cs" />
@@ -63,5 +70,6 @@
     <Compile Include="1476. %28Medium%29  Subrectangle queries.cs" />
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

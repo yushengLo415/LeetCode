@@ -20,44 +20,42 @@ namespace LeetCode
         
         public ListNode MergeTwoLists(ListNode list1, ListNode list2)
         {
-            List<ListNode> list = new List<ListNode>();
+            ListNode dummyNode = new ListNode();
+            ListNode head = dummyNode;
 
-            while(list1 != null && list2 != null)
+
+            // 1 2 4
+            // 3 3 4
+            while (list1 != null && list2 != null)
             {
-                if (list1.val >= list2.val)
+                if (list1.val > list2.val)
                 {
-                    list.Add(list2);
+                    dummyNode.next = list2;
                     list2 = list2.next;
                 }
                 else
                 {
-                    list.Add(list1);
+                    dummyNode.next = list1;
                     list1 = list1.next;
                 }
+
+                dummyNode = dummyNode.next;
             }
 
-            if (list1 == null)
-                list.Add(list2);
-            else if (list2 == null)
-                list.Add(list1);
+            if (list1 != null)
+                dummyNode.next = list1;
+            if (list2 != null)
+                dummyNode.next = list2;
 
-            for (int i = 0; i < list.Count - 1; i++)
-            {
-                list[i].next = list[i + 1];
-            }
-
-            if (list.Count == 0)
-                return null;
-
-            return list[0];
+            return head.next;
         }
 
-        static int Main()
+       /* static int Main()
         {
             ListNode n1 = new ListNode(1);
             ListNode n2 = new ListNode(2);
             ListNode n3 = new ListNode(4);
-            ListNode n4 = new ListNode(1);
+            ListNode n4 = new ListNode(3);
             ListNode n5 = new ListNode(3);
             ListNode n6 = new ListNode(4);
             n1.next = n2;
@@ -69,6 +67,6 @@ namespace LeetCode
             Console.WriteLine(sol.MergeTwoLists(n1, n4).val);
             Thread.Sleep(10000);
             return 0;
-        }
+        }*/
     }
 }
