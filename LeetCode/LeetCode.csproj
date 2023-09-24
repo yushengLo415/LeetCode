@@ -43,13 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Grind75\1. %28Easy%29 Two Sum.cs" />
+    <Compile Include="Grind75\110. %28Easy%29 Balanced Binary Tree.cs" />
     <Compile Include="Grind75\121. %28Easy%29 Best Time to Buy and Sell Stock.cs" />
     <Compile Include="Grind75\125. %28Easy%29 Valid Palindrome.cs" />
+    <Compile Include="Grind75\141. %28Easy%29 Linked List Cycle.cs" />
     <Compile Include="Grind75\20. %28Easy%29 Valid Parentheses.cs" />
     <Compile Include="Grind75\21. %28Easy%29 Merge Two Sorted Lists.cs" />
     <Compile Include="Grind75\226. %28Easy%29 Invert Binary Tree.cs" />
+    <Compile Include="Grind75\232. %28Easy%29 Implement Queue using Stacks.cs" />
     <Compile Include="Grind75\235. %28Medium%29 Lowest Common Ancestor of a Binary Search Tree.cs" />
     <Compile Include="Grind75\242. %28Easy%29 Valid Anagram.cs" />
+    <Compile Include="Grind75\278. %28Easy%29 First Bad Version.cs" />
+    <Compile Include="Grind75\383. %28Easy%29 Ransom Note.cs" />
+    <Compile Include="Grind75\409. %28Easy%29 Longest Palindrome.cs" />
+    <Compile Include="Grind75\70. %28Easy%29 Climbing Stairs.cs" />
     <Compile Include="Grind75\704. %28Easy%29 Binary Search.cs" />
     <Compile Include="Grind75\733. %28Easy%29 Flood Fill.cs" />
     <Compile Include="DP\55. %28Medium%29 Jump Game.cs" />
@@ -65,6 +73,8 @@
     <Compile Include="Sliding Window\3. %28Medium%29 Longest Substring Without Repeating Characters.cs" />
     <Compile Include="DP\70. %28Easy%29 Climbing Stairs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weekly Contest 364\Beautiful Towers I.cs" />
+    <Compile Include="Weekly Contest 364\Maximum Odd Binary Number.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1476. %28Medium%29  Subrectangle queries.cs" />

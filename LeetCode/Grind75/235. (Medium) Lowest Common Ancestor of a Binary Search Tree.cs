@@ -30,12 +30,12 @@ namespace LeetCode.Grind75
             return root;
         }
 
-        static int Main()
+        /*static int Main()
         {
             Solution235 sol = new Solution235();
 
             Console.ReadKey();
             return 0;
-        }
+        }*/
     }
 }
