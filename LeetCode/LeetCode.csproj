@@ -79,6 +79,7 @@
   <ItemGroup>
     <Compile Include="1476. %28Medium%29  Subrectangle queries.cs" />
     <None Include="App.config" />
+    <Compile Include="Grind75\206. %28Easy%29 Reverse Linked List.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
