@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="219. %28Easy%29 Contains Duplicate II.cs" />
+    <Compile Include="220. %28Hard%29 Contains Duplicate III.cs" />
     <Compile Include="Grind75\1. %28Easy%29 Two Sum.cs" />
     <Compile Include="Grind75\110. %28Easy%29 Balanced Binary Tree.cs" />
     <Compile Include="Grind75\121. %28Easy%29 Best Time to Buy and Sell Stock.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="Grind75\169. Majority Element.cs" />
     <Compile Include="Grind75\20. %28Easy%29 Valid Parentheses.cs" />
     <Compile Include="Grind75\21. %28Easy%29 Merge Two Sorted Lists.cs" />
+    <Compile Include="Grind75\217. %28Easy%29 Contains Duplicate.cs" />
     <Compile Include="Grind75\226. %28Easy%29 Invert Binary Tree.cs" />
     <Compile Include="Grind75\232. %28Easy%29 Implement Queue using Stacks.cs" />
     <Compile Include="Grind75\235. %28Medium%29 Lowest Common Ancestor of a Binary Search Tree.cs" />
@@ -58,11 +61,13 @@
     <Compile Include="Grind75\278. %28Easy%29 First Bad Version.cs" />
     <Compile Include="Grind75\383. %28Easy%29 Ransom Note.cs" />
     <Compile Include="Grind75\409. %28Easy%29 Longest Palindrome.cs" />
+    <Compile Include="Grind75\543. %28Easy%29 Diameter of Binary Tree.cs" />
     <Compile Include="Grind75\67. Add Binary.cs" />
     <Compile Include="Grind75\70. %28Easy%29 Climbing Stairs.cs" />
     <Compile Include="Grind75\704. %28Easy%29 Binary Search.cs" />
     <Compile Include="Grind75\733. %28Easy%29 Flood Fill.cs" />
     <Compile Include="DP\55. %28Medium%29 Jump Game.cs" />
+    <Compile Include="Grind75\876. %28Easy%29 Middle of the Linked List.cs" />
     <Compile Include="Two Pointer\11. %28Medium%29 Container With Most Water.cs" />
     <Compile Include="DP\118. %28Easy%29 Pascal%27s Triangle.cs" />
     <Compile Include="DP\119. !!!%28Easy%29 Pascal%27s Triangle II.cs" />
@@ -82,6 +87,7 @@
     <Compile Include="1476. %28Medium%29  Subrectangle queries.cs" />
     <None Include="App.config" />
     <Compile Include="Grind75\206. %28Easy%29 Reverse Linked List.cs" />
+    <Compile Include="Grind75\104. %28Easy%29 Maximum Depth of Binary Tree.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
