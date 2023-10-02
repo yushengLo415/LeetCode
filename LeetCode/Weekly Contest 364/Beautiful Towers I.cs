@@ -10,8 +10,8 @@ namespace LeetCode.Weekly_Contest_364
     {
         public long MaximumSumOfHeights(IList<int> maxHeights)
         {
-            #region Odd
-            if (maxHeights.Count == 1)
+            #region Old
+            /*if (maxHeights.Count == 1)
                 return maxHeights[0];
             if (maxHeights.Count == 2)
                 return maxHeights[0] + maxHeights[1];
@@ -67,9 +67,33 @@ namespace LeetCode.Weekly_Contest_364
             }
 
 
-            return maxSum - needToReduce;
+            return maxSum - needToReduce;*/
             #endregion
+            #region new
+            long ans = 0;
+            for (int i = 0; i < maxHeights.Count; i++)
+            {
+                long sum = 0;
+                int prev = maxHeights[i];
+                for (int left = i - 1; left >= 0; left--)
+                {
+                    prev = maxHeights[left] > prev ? prev : maxHeights[left];
+                    sum += prev;
+                }
 
+                prev = maxHeights[i];
+                for (int right = i + 1; right < maxHeights.Count; right++)
+                {
+                    prev = maxHeights[right] > prev ? prev : maxHeights[right];
+                    sum += prev;
+                }
+
+                if (ans < sum + maxHeights[i])
+                    ans = sum + maxHeights[i];
+            }
+
+            return ans;
+            #endregion
         }
 
 

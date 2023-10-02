@@ -37,7 +37,7 @@ namespace LeetCode.Grind75
             return ans;
         }
 
-        static int Main()
+        /*static int Main()
         {
             Solution67 sol = new Solution67();
             string a = "11";
@@ -45,6 +45,6 @@ namespace LeetCode.Grind75
             Console.WriteLine(sol.AddBinary(a, b));
             Console.ReadKey();
             return 0;
-        }
+        }*/
     }
 }
