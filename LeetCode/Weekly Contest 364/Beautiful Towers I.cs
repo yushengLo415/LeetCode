@@ -11,7 +11,7 @@ namespace LeetCode.Weekly_Contest_364
         public long MaximumSumOfHeights(IList<int> maxHeights)
         {
             #region Odd
-            /*if (maxHeights.Count == 1)
+            if (maxHeights.Count == 1)
                 return maxHeights[0];
             if (maxHeights.Count == 2)
                 return maxHeights[0] + maxHeights[1];
@@ -67,7 +67,7 @@ namespace LeetCode.Weekly_Contest_364
             }
 
 
-            return maxSum - needToReduce;*/
+            return maxSum - needToReduce;
             #endregion
 
         }
