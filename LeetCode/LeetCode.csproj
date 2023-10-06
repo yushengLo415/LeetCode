@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="219. %28Easy%29 Contains Duplicate II.cs" />
     <Compile Include="220. %28Hard%29 Contains Duplicate III.cs" />
+    <Compile Include="322. Coin Change.cs" />
     <Compile Include="Grind75\1. %28Easy%29 Two Sum.cs" />
     <Compile Include="Grind75\110. %28Easy%29 Balanced Binary Tree.cs" />
     <Compile Include="Grind75\121. %28Easy%29 Best Time to Buy and Sell Stock.cs" />
@@ -67,11 +68,12 @@
     <Compile Include="Grind75\704. %28Easy%29 Binary Search.cs" />
     <Compile Include="Grind75\733. %28Easy%29 Flood Fill.cs" />
     <Compile Include="DP\55. %28Medium%29 Jump Game.cs" />
+    <Compile Include="Grind75\844. %28Easy%29 Backspace String Compare.cs" />
     <Compile Include="Grind75\876. %28Easy%29 Middle of the Linked List.cs" />
     <Compile Include="Two Pointer\11. %28Medium%29 Container With Most Water.cs" />
     <Compile Include="DP\118. %28Easy%29 Pascal%27s Triangle.cs" />
     <Compile Include="DP\119. !!!%28Easy%29 Pascal%27s Triangle II.cs" />
-    <Compile Include="13. %28Easy%29 Roman to Integer.cs" />
+    <Compile Include="Grind75\13. %28Easy%29 Roman to Integer.cs" />
     <Compile Include="141. %28Easy%29 Linked List Cycle.cs" />
     <Compile Include="1658. !!!%28Minimum%29 Operations to Reduce X to Zero.cs" />
     <Compile Include="1828. %28Medium%29  Queries On Number of Points Inside a Circle.cs" />
