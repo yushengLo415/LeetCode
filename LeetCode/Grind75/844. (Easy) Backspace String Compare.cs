@@ -34,12 +34,12 @@ namespace LeetCode.Grind75
                 return false;
         }
 
-        static int Main()
+        /*static int Main()
         {
             Solution844 sol = new Solution844();
             Console.WriteLine(sol.BackspaceCompare("a##c", "#a#c"));
             Console.ReadKey();
             return 0;
-        }
+        }*/
     }
 }
