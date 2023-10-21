@@ -6,14 +6,6 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Grind75
 {
-    public class TreeNode
-    {
-          public int val;
-          public TreeNode left;
-          public TreeNode right;
-          public TreeNode(int x) { val = x; }
-    }
-
     class Solution235
     {
         public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)

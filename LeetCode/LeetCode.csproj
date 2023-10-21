@@ -50,6 +50,7 @@
     <Compile Include="Grind75\1. %28Easy%29 Two Sum.cs" />
     <Compile Include="Grind75\100. %28Easy%29 Same Tree.cs" />
     <Compile Include="Grind75\101. %28Easy%29 Symmetric Tree.cs" />
+    <Compile Include="Grind75\108. %28Easy%29 Convert Sorted Array to Binary Search Tree.cs" />
     <Compile Include="Grind75\110. %28Easy%29 Balanced Binary Tree.cs" />
     <Compile Include="Grind75\121. %28Easy%29 Best Time to Buy and Sell Stock.cs" />
     <Compile Include="Grind75\125. %28Easy%29 Valid Palindrome.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="DP\55. %28Medium%29 Jump Game.cs" />
     <Compile Include="Grind75\844. %28Easy%29 Backspace String Compare.cs" />
     <Compile Include="Grind75\876. %28Easy%29 Middle of the Linked List.cs" />
+    <Compile Include="Grind75\9. %28Easy%29 Palindrome Number.cs" />
     <Compile Include="Two Pointer\11. %28Medium%29 Container With Most Water.cs" />
     <Compile Include="DP\118. %28Easy%29 Pascal%27s Triangle.cs" />
     <Compile Include="DP\119. !!!%28Easy%29 Pascal%27s Triangle II.cs" />
