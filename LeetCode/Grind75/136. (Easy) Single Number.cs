@@ -35,13 +35,13 @@ namespace LeetCode.Grind75
 
         }
 
-        static int Main()
+        /*static int Main()
         {
             Solution136 sol = new Solution136();
             int[] nums = new int[7] { 4, 0, 7, 2, 7, 2 , 0};
             Console.WriteLine(sol.SingleNumber(nums));
             Console.ReadKey();
             return 0;
-        }
+        }*/
     }
 }

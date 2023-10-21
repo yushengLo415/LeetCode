@@ -46,8 +46,10 @@
     <Compile Include="219. %28Easy%29 Contains Duplicate II.cs" />
     <Compile Include="220. %28Hard%29 Contains Duplicate III.cs" />
     <Compile Include="322. Coin Change.cs" />
+    <Compile Include="Algo Implement\Algo_QuickSort.cs" />
     <Compile Include="Grind75\1. %28Easy%29 Two Sum.cs" />
     <Compile Include="Grind75\100. %28Easy%29 Same Tree.cs" />
+    <Compile Include="Grind75\101. %28Easy%29 Symmetric Tree.cs" />
     <Compile Include="Grind75\110. %28Easy%29 Balanced Binary Tree.cs" />
     <Compile Include="Grind75\121. %28Easy%29 Best Time to Buy and Sell Stock.cs" />
     <Compile Include="Grind75\125. %28Easy%29 Valid Palindrome.cs" />
@@ -64,6 +66,7 @@
     <Compile Include="Grind75\234. %28Easy%29 Palindrome Linked List.cs" />
     <Compile Include="Grind75\235. %28Medium%29 Lowest Common Ancestor of a Binary Search Tree.cs" />
     <Compile Include="Grind75\242. %28Easy%29 Valid Anagram.cs" />
+    <Compile Include="Grind75\268. %28Easy%29 Missing Number.cs" />
     <Compile Include="Grind75\278. %28Easy%29 First Bad Version.cs" />
     <Compile Include="Grind75\283. %28Easy%29 Move Zeroes.cs" />
     <Compile Include="Grind75\338. %28Easy%29 Counting Bits.cs" />
