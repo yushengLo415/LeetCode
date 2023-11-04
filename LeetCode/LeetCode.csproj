@@ -74,6 +74,7 @@
     <Compile Include="Grind75\338. %28Easy%29 Counting Bits.cs" />
     <Compile Include="Grind75\383. %28Easy%29 Ransom Note.cs" />
     <Compile Include="Grind75\409. %28Easy%29 Longest Palindrome.cs" />
+    <Compile Include="Grind75\53. %28Medium%29 Maximum Subarray.cs" />
     <Compile Include="Grind75\543. %28Easy%29 Diameter of Binary Tree.cs" />
     <Compile Include="Grind75\572. %28Easy%29 Subtree of Another Tree.cs" />
     <Compile Include="Grind75\67. Add Binary.cs" />
