@@ -101,12 +101,14 @@
     <Compile Include="Weekly Contest 364\Beautiful Towers I.cs" />
     <Compile Include="Weekly Contest 364\Maximum Odd Binary Number.cs" />
     <Compile Include="Weekly Contest 368\Q1.cs" />
+    <Compile Include="Weekly Contest 371\2933. %28Medium%29 High-Access Employees.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1476. %28Medium%29  Subrectangle queries.cs" />
     <None Include="App.config" />
     <Compile Include="Grind75\206. %28Easy%29 Reverse Linked List.cs" />
     <Compile Include="Grind75\104. %28Easy%29 Maximum Depth of Binary Tree.cs" />
+    <Compile Include="Weekly Contest 371\2932. %28Easy%29 Maximum Strong Pair XOR I.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
