@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    public class Solution
+    public class Solution118
     {
         public IList<IList<int>> Generate(int numRows)
         {

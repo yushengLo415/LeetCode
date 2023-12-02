@@ -102,7 +102,7 @@ namespace LeetCode.Weekly_Contest_368
             }
 
 
-            static int Main()
+            /*static int Main()
             {
                 SolutionQ1 sol = new SolutionQ1();
                 int[] arr1 = new int[] { 8, 6, 6, 6, 7, 8 };
@@ -110,7 +110,7 @@ namespace LeetCode.Weekly_Contest_368
                 Console.WriteLine(sol.MinOperations(arr1, arr2));
                 Console.ReadKey();
                 return 0;
-            }
+            }*/
         }
     }
 }

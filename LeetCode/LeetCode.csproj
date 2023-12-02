@@ -75,7 +75,9 @@
     <Compile Include="Grind75\383. %28Easy%29 Ransom Note.cs" />
     <Compile Include="Grind75\409. %28Easy%29 Longest Palindrome.cs" />
     <Compile Include="Grind75\53. %28Medium%29 Maximum Subarray.cs" />
+    <Compile Include="Grind75\542. %28Medium%29 01 Matrix.cs" />
     <Compile Include="Grind75\543. %28Easy%29 Diameter of Binary Tree.cs" />
+    <Compile Include="Grind75\57. %28Medium%29 Insert Interval.cs" />
     <Compile Include="Grind75\572. %28Easy%29 Subtree of Another Tree.cs" />
     <Compile Include="Grind75\67. Add Binary.cs" />
     <Compile Include="Grind75\70. %28Easy%29 Climbing Stairs.cs" />
@@ -85,7 +87,10 @@
     <Compile Include="Grind75\844. %28Easy%29 Backspace String Compare.cs" />
     <Compile Include="Grind75\876. %28Easy%29 Middle of the Linked List.cs" />
     <Compile Include="Grind75\9. %28Easy%29 Palindrome Number.cs" />
+    <Compile Include="Grind75\973. %28Medium%29 K Closest Points to Origin.cs" />
     <Compile Include="Grind75\977. %28Easy%29 Squares of a Sorted Array.cs" />
+    <Compile Include="Grind75\Main.cs" />
+    <Compile Include="Grind75\Solution.cs" />
     <Compile Include="Two Pointer\11. %28Medium%29 Container With Most Water.cs" />
     <Compile Include="DP\118. %28Easy%29 Pascal%27s Triangle.cs" />
     <Compile Include="DP\119. !!!%28Easy%29 Pascal%27s Triangle II.cs" />
