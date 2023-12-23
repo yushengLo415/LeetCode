@@ -6,12 +6,39 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Grind75
 {
-    public class Solution57
+    class Solution57 : Solution
     {
-        public int[][] Insert(int[][] intervals, int[] newInterval)
+        public override int RunScript()
         {
 
-            return null;
+            return 0;
+        }
+
+        public int[][] Insert(int[][] intervals, int[] newInterval)
+        {
+            List<int[]> result = new List<int[]>();
+
+            foreach (int[] interval in intervals)
+            {
+                if (newInterval[0] > interval[1])
+                {
+                    result.Add(interval);
+                }
+                else if (newInterval[1] < interval[0])
+                {
+                    result.Add(newInterval);
+                    newInterval = interval;
+                }
+                else
+                {
+                    newInterval[0] = Math.Min(interval[0], newInterval[0]);
+                    newInterval[1] = Math.Max(interval[1], newInterval[1]);
+                }
+            }
+
+            result.Add(newInterval);
+
+            return result.ToArray();
         }
 
     }
