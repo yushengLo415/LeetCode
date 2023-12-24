@@ -57,6 +57,7 @@
     <Compile Include="Grind75\136. %28Easy%29 Single Number.cs" />
     <Compile Include="Grind75\14. %28Easy%29 Longest Common Prefix.cs" />
     <Compile Include="Grind75\141. %28Easy%29 Linked List Cycle.cs" />
+    <Compile Include="Grind75\15. %28Medium%29 3Sum.cs" />
     <Compile Include="Grind75\169. Majority Element.cs" />
     <Compile Include="Grind75\190. %28Easy%29 Reverse Bits.cs" />
     <Compile Include="Grind75\191. %28Easy%29 Number of 1 Bits.cs" />
@@ -107,6 +108,8 @@
     <Compile Include="Weekly Contest 364\Maximum Odd Binary Number.cs" />
     <Compile Include="Weekly Contest 368\Q1.cs" />
     <Compile Include="Weekly Contest 371\2933. %28Medium%29 High-Access Employees.cs" />
+    <Compile Include="Weekly Contest 377\10035. %28Easy%29 Minimum Number Game.cs" />
+    <Compile Include="Weekly Contest 377\10036. %28Medium%29 Maximum Square Area by Removing Fences From a Field.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1476. %28Medium%29  Subrectangle queries.cs" />

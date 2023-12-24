@@ -14,6 +14,7 @@ namespace LeetCode.Grind75
             sol.RunScript();
             Console.ReadKey();
             return 0;
+
         }
     }
 }
