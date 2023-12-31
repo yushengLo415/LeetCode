@@ -110,6 +110,9 @@
     <Compile Include="Weekly Contest 371\2933. %28Medium%29 High-Access Employees.cs" />
     <Compile Include="Weekly Contest 377\10035. %28Easy%29 Minimum Number Game.cs" />
     <Compile Include="Weekly Contest 377\10036. %28Medium%29 Maximum Square Area by Removing Fences From a Field.cs" />
+    <Compile Include="Weekly Contest 378\Q3.cs" />
+    <Compile Include="Weekly Contest 378\Q2.cs" />
+    <Compile Include="Weekly Contest 378\Q1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1476. %28Medium%29  Subrectangle queries.cs" />
