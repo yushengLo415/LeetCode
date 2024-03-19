@@ -8,7 +8,7 @@ namespace LeetCode.Weekly_Contest_378
 {
     class Q3
     {
-        public int MaximumLength(string s)
+        /*public int MaximumLength(string s)
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
 
@@ -49,7 +49,42 @@ namespace LeetCode.Weekly_Contest_378
             }
 
             return true;
-        }
+        }*/
 
+        public int MaximumLength(string s)
+        {
+            int[][] arr = new int[26][];
+            int n = s.Length;
+            int longestSpecialLength = -1;
+
+            for (int i = 0; i < 26; i++)
+                arr[i] = new int[n];
+            
+            for (int i = 0; i < n; i++)
+            {
+                int j = i;
+                while (j < n && s[i] == s[j])
+                    j++;
+
+                arr[s[i] - 'a'][j - i - 1] += 1;
+            }
+
+
+            for (int i = 0; i < 26; i++)
+                for (int j = n - 1; j >= 0; j--)
+                {
+                    if (arr[i][j] >= 3 && j + 1 > longestSpecialLength)
+                        longestSpecialLength = j + 1;
+
+                    if (j >= 2 && arr[i][j] > 0 && j + 1 - 3 > longestSpecialLength)
+                        longestSpecialLength = j + 1 - 2;
+                }
+                   
+
+
+            return longestSpecialLength == 0 ? -1 : longestSpecialLength;
+        }
+        //aabcaba
+        //aaaa
     }
 }
